@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App for the text sentiment analysis</title>
+</head>
+<body>
+    <h1>Enter text to estimate sentiment by NLP</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Analyse</button>
+    </form>
+    <p>{{ result }}</p>
+</body>
+</html>

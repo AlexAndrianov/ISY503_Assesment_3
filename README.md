@@ -4,8 +4,6 @@ NLP Project to provide the sentiment analysis of inputted text.
 Project autors:
 Aleksandr Andrianov A00141332
 Thomas Tarawali A00087984
-HASSAN YA’U HAMISU - Student ID: A00133000
-Marian carolina fonseca mejia Student ID: A00087920
 
 Datasets were taken from:
 https://www.cs.jhu.edu/~mdredze/datasets/sentiment/index2.html

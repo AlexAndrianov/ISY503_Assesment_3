@@ -3,7 +3,6 @@ NLP Project to provide the sentiment analysis of inputted text.
 
 Project autors:
 Aleksandr Andrianov A00141332
-Thomas Tarawali A00087984
 
 Datasets were taken from:
 https://www.cs.jhu.edu/~mdredze/datasets/sentiment/index2.html

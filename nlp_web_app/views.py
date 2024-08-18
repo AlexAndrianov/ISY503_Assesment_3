@@ -10,12 +10,13 @@ def NLP_view(request):
         form = Text_Estimate_Form(request.POST)
         if form.is_valid():
             input_text = form.cleaned_data['input_text']
+            selected_value = form.cleaned_data['nlp_model']
 
             # Create a new estimator instance
             estimator = EstimatingItem.objects.create()
             
             # Analyze the input text using the TextProcessor instance
-            analysis_res = estimator.analyse(input_text)
+            analysis_res = estimator.analyse(input_text, int(selected_value))
 
             if analysis_res == 1:
                 result = "The sentiment is positive"
